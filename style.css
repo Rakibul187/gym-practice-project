@@ -67,9 +67,10 @@
     background-color: brown;
     color: white;
     font-size: 15px;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .baner-img {
@@ -79,6 +80,7 @@
 /* section two card */
 .section-two {
     margin-top: 70px;
+    margin-bottom: 70px;
 
 }
 
@@ -87,15 +89,14 @@
 }
 
 .card1 {
-    width: 350px;
-    height: 200px;
+    width: 400px;
+    height: 250px;
     border: 1px solid grey;
     text-align: center;
     border-radius: 7px;
     padding: 20px;
     box-shadow: 3px 10px 30px;
-    margin-top: 30px;
-    margin-right: 10px;
+    margin: 30px 10px;
 }
 
 .card1:hover {
@@ -104,7 +105,7 @@
     transition: .8s;
 }
 
-.card-title {
+.title {
     text-align: center;
     margin-bottom: 50px;
     font-size: 40px;
@@ -119,4 +120,61 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+/* =============about us============ */
+.about-section {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.title-abot {
+    text-align: center;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.workout-img {
+    display: flex;
+    /* padding: 30px; */
+    width: 100%;
+}
+
+.workout-img img {
+    transform: skew(-13deg);
+    height: 550px;
+    padding: 20px;
+}
+
+.about-left {
+    width: 40%;
+    margin-right: 50px;
+    padding: 2%;
+    border-top: 1px solid rgb(232, 25, 25);
+}
+
+.about-right {
+    width: 40%;
+    margin-right: 20px;
+    padding: 2%;
+    border-top: 1px solid grey;
+}
+
+.about-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about-right p {
+    font-size: 20px;
+    margin: 20px 0;
+    font-weight: bold;
 }
