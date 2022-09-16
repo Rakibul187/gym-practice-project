@@ -91,23 +91,28 @@
 
 .section-two a {
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.section-two a:hover {
+    cursor: pointer;
 }
 
 .card1 {
     width: 400px;
     height: 250px;
-    border: 1px solid grey;
     text-align: center;
     border-radius: 7px;
     padding: 20px;
-    box-shadow: 3px 10px 30px;
+    box-shadow: 5px 1px 19px gray;
     margin: 30px 10px;
 }
 
 .card1:hover {
-    border: 1px solid rgb(184, 97, 97);
     margin-top: -25px;
     transition: .8s;
+    background-color: bisque;
 }
 
 .title {
@@ -119,6 +124,7 @@
 
 .card-img {
     width: 50px;
+    margin-bottom: 20px;
 }
 
 .card-section {
@@ -193,9 +199,10 @@
     background-image: url("./images/shape/Group_33094_1.png");
     background-repeat: no-repeat;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 80px;
     border-radius: 5px;
     color: white;
+    margin-bottom: 70px;
 }
 
 .workout-btn button {
@@ -209,5 +216,76 @@
 
 .workout-btn button:hover {
     background-color: rgb(172, 106, 106);
+    cursor: pointer;
+}
+
+/* ==========service section========= */
+.service-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    height: 480px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-right: 15px;
+    margin-top: 50px;
+    box-shadow: 5px 1px 19px gray;
+    position: relative;
+}
+
+.service-card:hover {
+    margin-top: -10px;
+    transition: .5s;
+    background-color: bisque;
+}
+
+.service-card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+}
+
+.service-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-text1 {
+    color: red;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.service-card p {
+    font-weight: bold;
+    margin: 10px 0 30px;
+}
+
+.icon-img img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -40px;
+    right: -10px;
+}
+
+.service-text2 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 7px;
+    color: red;
+    font-size: 1.1rem;
+    margin: 10px 0;
+    padding-right: 20px;
+}
+
+.service-text2:hover {
     cursor: pointer;
 }
