@@ -6,10 +6,10 @@
 
 .menu-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     background-color: black;
-    padding: 10px;
+    padding: 20px;
     color: white;
     flex-wrap: wrap;
 }
@@ -17,7 +17,12 @@
 .menu-items {
     display: flex;
     justify-content: space-between;
+    margin-right: 50px;
 
+}
+
+.conpany-logo h1 {
+    margin-left: 50px;
 }
 
 .menu-items li {
@@ -73,8 +78,8 @@
     margin-top: 20px;
 }
 
-.baner-img {
-    image-rendering: cover;
+.baner-btn:hover {
+    background-color: rgb(245, 2, 2);
 }
 
 /* section two card */
@@ -177,4 +182,32 @@
     font-size: 20px;
     margin: 20px 0;
     font-weight: bold;
+}
+
+.workout-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 550px;
+    height: 250px;
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 5px;
+    color: white;
+}
+
+.workout-btn button {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.workout-btn button:hover {
+    background-color: rgb(172, 106, 106);
+    cursor: pointer;
 }
